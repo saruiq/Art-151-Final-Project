@@ -7,7 +7,6 @@ let img6;
 let img7;
 let img8;
 let img9;
-let buttonClicked = false;
 let birdpic;
 let birdpic2;
 
@@ -332,18 +331,18 @@ function draw() {
   
   if(mouseIsPressed)
   {
-     birdpic.position(450, 170)
+     birdpic.position(450, 70)
     birdpic.size(100, 100)
-    birdpic2.position(0, 310)
+    birdpic2.position(0, 210)
     birdpic2.size(170, 170)
    
     
   }
   else
   {
-     birdpic.position(15, 170)
+     birdpic.position(15, 70)
     birdpic.size(100, 100)
-     birdpic2.position(411, 310)
+     birdpic2.position(411, 210)
     birdpic2.size(170, 170)
     
      
