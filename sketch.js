@@ -331,18 +331,18 @@ function draw() {
   
   if(mouseIsPressed)
   {
-     birdpic.position(450, 100)
+     birdpic.position(450, 270)
     birdpic.size(100, 100)
-    birdpic2.position(0, 350)
+    birdpic2.position(0, 410)
     birdpic2.size(170, 170)
    
     
   }
   else
   {
-     birdpic.position(15, 100)
+     birdpic.position(15, 270)
     birdpic.size(100, 100)
-     birdpic2.position(411, 350)
+     birdpic2.position(411, 410)
     birdpic2.size(170, 170)
     
      
